@@ -1,0 +1,11 @@
+{
+  "version" : "patman",
+  "author" : "1.0",
+  "tags" : "Dungeons",
+  "description" : "someone leaves a burger on a urinal at the outpost after the \"Floran Mission\" is completed\nyou can take it if you want to\n\nthasts it\n\ncompatible with anom's out post overhaul\n\n[url=https://discord.gg/GdsQSgV][img]https://i.imgur.com/wXjYMqP.gif[/img][/url]\n[url=https://www.patreon.com/pathiccstar][img]https://i.imgur.com/uyG8oTa.gif[/img][/url]",
+  "name" : "pat_urinalburger",
+  "friendlyName" : "urinal burgers",
+  "steamContentId" : "2794987583",
+  "link" : "steam://url/CommunityFilePage/2794987583",
+  "includes" : ["AnomsOutpostOverhual"]
+}
