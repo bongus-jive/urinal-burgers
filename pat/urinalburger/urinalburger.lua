@@ -1,31 +1,30 @@
 function init()
-	if storage.burger == nil then
-		storage.burger = true
-	end
-	setBurger()
-	
-	storage.variant = storage.variant or math.random(1, 2)
-	animator.setGlobalTag("variant", storage.variant)
+  if storage.burger == nil then
+    storage.burger = true
+  end
+  updateBurgerState()
+
+  storage.variant = storage.variant or math.random(config.getParameter("burgerVariants"))
+  animator.setGlobalTag("variant", storage.variant)
 end
 
 function onInteraction()
-	spawnBurger()
-	storage.burger = false
-	setBurger()
+  storage.burger = false
+  updateBurgerState()
+  spawnBurger()
 end
 
 function die()
-	spawnBurger()
+  spawnBurger()
 end
 
-
-function setBurger()
-	animator.setAnimationState("burger", tostring(not not storage.burger))
-	object.setInteractive(storage.burger)
+function updateBurgerState()
+  animator.setAnimationState("burger", tostring(not not storage.burger))
+  object.setInteractive(storage.burger)
 end
 
 function spawnBurger()
-	if storage.burger then
-		world.spawnItem("hamburger", entity.position())
-	end
+  if storage.burger then
+    world.spawnItem(config.getParameter("burgerItem"), entity.position())
+  end
 end

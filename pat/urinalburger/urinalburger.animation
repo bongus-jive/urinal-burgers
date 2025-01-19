@@ -16,7 +16,7 @@
         "properties": {
           "zLevel": -1,
           "centered": false,
-          "image": "urinal.png"
+          "image": "<partImage>"
         }
       },
       "burger": {
@@ -25,7 +25,7 @@
             "true": {
               "properties": {
                 "centered": false,
-                "image": "burger<variant>.png"
+                "image": "<partImage>:<variant>"
               }
             }
           }

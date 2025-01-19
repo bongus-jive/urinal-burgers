@@ -3,14 +3,13 @@
   "description": "A bathroom urinal and a hamburger.",
   "shortdescription": "Urinal with Burger",
   "rarity": "uncommon",
-  "race": "generic",
-  "colonyTags": [ "outpost" ],
   "category": "decorative",
+  "colonyTags": [ "outpost" ],
   "printable": false,
 
   "apexDescription": "Do... I eat this burger or...?",
   "avianDescription": "I'm not sure why there is a burger here.",
-  "floranDescription": "Floran not sure about hamburger.",
+  "floranDescription": "Floran not sssure about hamburger.",
   "glitchDescription": "Impassive. A urinal, with a hamburger on it.",
   "humanDescription": "A urinal and a burger.",
   "hylotlDescription": "A hamburger on a basic urinal.",
@@ -22,16 +21,23 @@
     {
       "dualImage": "urinal.png",
       "imagePosition": [ -8, -8 ],
+      "animationPosition": [ -8, -8 ],
       "spaceScan": 0.1,
       "anchors": [ "background" ]
     }
   ],
 
   "animation": "urinalburger.animation",
-  "animationPosition": [ -8, -8 ],
+  "animationParts": {
+    "urinal": "urinal.png",
+    "burger": "burgers.png"
+  },
 
   "scripts": [ "urinalburger.lua" ],
   "scriptDelta": 0,
+
+  "burgerVariants": 2,
+  "burgerItem": { "name": "hamburger" },
 
   "breakDropOptions": [ [ [ "bathroomurinal", 1, { } ] ] ]
 }
