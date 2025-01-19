@@ -4,26 +4,33 @@
  "layers":[
         {
          "draworder":"topdown",
-         "id":3,
+         "id":1,
          "name":"objects",
          "objects":[
                 {
-                 "gid":2147483887,
-                 "height":24,
-                 "id":2,
+                 "height":8,
+                 "id":1,
                  "name":"",
-                 "properties":[
-                        {
-                         "name":"object",
-                         "type":"string",
-                         "value":"pat_urinalburger"
-                        }],
+                 "properties":
+                    {
+                     "flipX":true,
+                     "imagePositionX":"-8",
+                     "imagePositionY":"-8",
+                     "object":"pat_urinalburger"
+                    },
+                 "propertytypes":
+                    {
+                     "flipX":"bool",
+                     "imagePositionX":"string",
+                     "imagePositionY":"string",
+                     "object":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":16,
+                 "width":8,
                  "x":0,
-                 "y":24
+                 "y":16
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -31,27 +38,15 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":4,
- "nextobjectid":3,
+ "nextlayerid":2,
+ "nextobjectid":2,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.7.2",
+ "tiledversion":"1.11.0",
  "tileheight":8,
- "tilesets":[
-        {
-         "firstgid":1,
-         "source":"..\/..\/..\/tilesets\/packed\/miscellaneous.json"
-        }, 
-        {
-         "firstgid":25,
-         "source":"..\/..\/..\/tilesets\/packed\/materials.json"
-        }, 
-        {
-         "firstgid":222,
-         "source":"..\/..\/..\/tilesets\/packed\/objects-by-colonytag\/outpost.json"
-        }],
+ "tilesets":[],
  "tilewidth":8,
  "type":"map",
- "version":"1.6",
+ "version":1.1,
  "width":2
 }
