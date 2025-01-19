@@ -1,32 +1,32 @@
 [
-	[
-		{
-			"op": "add",
-			"path": "/_urinalburger",
-			"value": {
-				"type": "placeDungeon",
-				"dungeonId": "outpost_urinalburger",
-				"targetInstance": "outpost",
-				"targetPosition": [365, 644]
-			}
-		}
-	],
-	[
-		{
-			"op" : "test",
-			"path" : "/anomsOutpostOverhaul"
-		},
-		{
-			"op" : "replace",
-			"path" : "/_urinalburger/targetPosition",
-			"value" : [436, 583]
-		}
-	],
-	[
-		{
-			"op": "move",
-			"from" : "/_urinalburger",
-			"path": "/outpost_mission2/actions/-"
-		}
-	]
+  [
+    {
+      "op": "add",
+      "path": "/_urinalburger",
+      "value": {
+        "type": "placeDungeon",
+        "dungeonId": "outpost_urinalburger",
+        "targetInstance": "outpost",
+        "targetPosition": [ 365, 644 ]
+      }
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/anomsOutpostOverhaul"
+    },
+    {
+      "op": "replace",
+      "path": "/_urinalburger/targetPosition",
+      "value": [ 436, 583 ]
+    }
+  ],
+  [
+    {
+      "op": "move",
+      "from": "/_urinalburger",
+      "path": "/outpost_mission2/actions/-"
+    }
+  ]
 ]

@@ -1,23 +1,23 @@
 {
-  "metadata" : {
-    "name" : "outpost_urinalburger",
-    "species" : "generic",
-    "rules" : [],
+  "metadata": {
+    "name": "outpost_urinalburger",
+    "species": "generic",
+    "rules": [ ],
 
-    "anchor" : [ "outpost_urinalburger" ],
+    "anchor": [ "outpost_urinalburger" ],
 
-    "maxRadius" : 1000000,
-    "maxParts" : 1,
-    "protected" : true
+    "maxRadius": 1000000,
+    "maxParts": 1,
+    "protected": true
   },
 
-  "parts" : [
+  "parts": [
     {
-      "name" : "outpost_urinalburger",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
+      "name": "outpost_urinalburger",
+      "rules": [
+        [ "maxSpawnCount", [ 1 ] ]
       ],
-      "def" : [ "tmx", "outpost_urinalburger.json" ]
+      "def": [ "tmx", "outpost_urinalburger.json" ]
     }
   ]
 }

@@ -1,29 +1,35 @@
 {
-	"globalTagDefaults" : {
-		"variant" : "1"
-	},
-	
-  "animatedParts" : {
-    "stateTypes" : {
-      "burger" : {
-        "default" : "false",
-        "states" : { "false" : {}, "true" : {} }
+  "globalTagDefaults": {
+    "variant": "1"
+  },
+
+  "animatedParts": {
+    "stateTypes": {
+      "burger": {
+        "default": "false",
+        "states": { "false": { }, "true": { } }
       }
     },
-		
-    "parts" : {
-      "urinal" : {
-        "properties" : {
-					"zLevel" : -1,
-          "centered" : false,
-					"image" : "urinal.png"
+
+    "parts": {
+      "urinal": {
+        "properties": {
+          "zLevel": -1,
+          "centered": false,
+          "image": "urinal.png"
         }
       },
-      "burger" : {
-        "partStates" : { "burger" : { "true" : { "properties" : {
-					"centered" : false,
-					"image" : "burger<variant>.png"
-				}}}}
+      "burger": {
+        "partStates": {
+          "burger": {
+            "true": {
+              "properties": {
+                "centered": false,
+                "image": "burger<variant>.png"
+              }
+            }
+          }
+        }
       }
     }
   }
