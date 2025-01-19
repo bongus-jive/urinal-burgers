@@ -5,7 +5,7 @@
       "path": "/_urinalburger",
       "value": {
         "type": "placeDungeon",
-        "dungeonId": "outpost_urinalburger",
+        "dungeonId": "pat_urinalburger",
         "targetInstance": "outpost",
         "targetPosition": [ 365, 644 ]
       }

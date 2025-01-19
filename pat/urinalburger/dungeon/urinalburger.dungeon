@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "name": "outpost_urinalburger",
+    "name": "pat_urinalburger",
     "species": "generic",
     "rules": [ ],
 
-    "anchor": [ "outpost_urinalburger" ],
+    "anchor": [ "pat_urinalburger" ],
 
     "maxRadius": 1000000,
     "maxParts": 1,
@@ -13,11 +13,11 @@
 
   "parts": [
     {
-      "name": "outpost_urinalburger",
+      "name": "pat_urinalburger",
       "rules": [
         [ "maxSpawnCount", [ 1 ] ]
       ],
-      "def": [ "tmx", "outpost_urinalburger.json" ]
+      "def": [ "tmx", "urinalburger.json" ]
     }
   ]
 }
